@@ -1,0 +1,200 @@
+
+##############################################################
+
+leonardo.name=Arduino Leonardo (Controller Names+PIDs)
+leonardo.vid.0=0x2341
+leonardo.pid.0=0x0036
+leonardo.vid.1=0x2341
+leonardo.pid.1=0x8036
+leonardo.vid.2=0x2A03
+leonardo.pid.2=0x0036
+leonardo.vid.3=0x2A03
+leonardo.pid.3=0x8036
+leonardo.upload_port.0.vid=0x2341
+leonardo.upload_port.0.pid=0x0036
+leonardo.upload_port.1.vid=0x2341
+leonardo.upload_port.1.pid=0x8036
+leonardo.upload_port.2.vid=0x2A03
+leonardo.upload_port.2.pid=0x0036
+leonardo.upload_port.3.vid=0x2A03
+leonardo.upload_port.3.pid=0x8036
+leonardo.upload_port.4.board=leonardo
+
+leonardo.upload.tool=avrdude
+leonardo.upload.tool.default=avrdude
+leonardo.upload.tool.network=arduino_ota
+leonardo.upload.protocol=avr109
+leonardo.upload.maximum_size=28672
+leonardo.upload.maximum_data_size=2560
+leonardo.upload.speed=57600
+leonardo.upload.disable_flushing=true
+leonardo.upload.use_1200bps_touch=true
+leonardo.upload.wait_for_upload_port=true
+
+leonardo.bootloader.tool=avrdude
+leonardo.bootloader.tool.default=avrdude
+leonardo.bootloader.low_fuses=0xff
+leonardo.bootloader.high_fuses=0xd8
+leonardo.bootloader.extended_fuses=0xcb
+leonardo.bootloader.file=caterina/Caterina-Leonardo.hex
+leonardo.bootloader.unlock_bits=0x3F
+leonardo.bootloader.lock_bits=0x2F
+
+leonardo.build.mcu=atmega32u4
+leonardo.build.f_cpu=16000000L
+leonardo.build.vid=0x2341
+leonardo.build.pid=0x8036
+leonardo.build.usb_product="Arduino Leonardo"
+leonardo.build.board=AVR_LEONARDO
+leonardo.build.core=arduino
+leonardo.build.variant=leonardo
+leonardo.build.extra_flags={build.usb_flags}
+
+##############################################################
+# using PID range 5001+
+menu.usb_name=USB Product Name
+
+leonardo.menu.usb_name.leonardo=Leonardo
+leonardo.menu.usb_name.leonardo.build.usb_product="Arduino Leonardo"
+leonardo.menu.usb_name.leonardo.build.vid=0x2341
+leonardo.menu.usb_name.leonardo.build.pid=0x8036
+
+# flight sticks etc
+leonardo.menu.usb_name.leonardo_1flight_0= - Flight Controls
+
+leonardo.menu.usb_name.leonardo_1flight_1=Leonardo (Flight Stick)
+leonardo.menu.usb_name.leonardo_1flight_1.build.usb_product="Leonardo (Flight Stick)"
+leonardo.menu.usb_name.leonardo_1flight_1.build.vid=0x1209
+leonardo.menu.usb_name.leonardo_1flight_1.build.pid=0x5011
+
+leonardo.menu.usb_name.leonardo_1flight_2=Leonardo (Flight Stick Right)
+leonardo.menu.usb_name.leonardo_1flight_2.build.usb_product="Leonardo (Flight Stick Right)"
+leonardo.menu.usb_name.leonardo_1flight_2.build.vid=0x1209
+leonardo.menu.usb_name.leonardo_1flight_2.build.pid=0x5012
+
+leonardo.menu.usb_name.leonardo_1flight_3=Leonardo (Flight Stick Center)
+leonardo.menu.usb_name.leonardo_1flight_3.build.usb_product="Leonardo (Flight Stick Center)"
+leonardo.menu.usb_name.leonardo_1flight_3.build.vid=0x1209
+leonardo.menu.usb_name.leonardo_1flight_3.build.pid=0x5013
+
+leonardo.menu.usb_name.leonardo_1flight_4=Leonardo (Flight Stick Left)
+leonardo.menu.usb_name.leonardo_1flight_4.build.usb_product="Leonardo (Flight Stick Left)"
+leonardo.menu.usb_name.leonardo_1flight_4.build.vid=0x1209
+leonardo.menu.usb_name.leonardo_1flight_4.build.pid=0x5014
+
+leonardo.menu.usb_name.leonardo_1flight_5=Leonardo (Flight Collective)
+leonardo.menu.usb_name.leonardo_1flight_5.build.usb_product="Leonardo (Flight Collective)"
+leonardo.menu.usb_name.leonardo_1flight_5.build.vid=0x1209
+leonardo.menu.usb_name.leonardo_1flight_5.build.pid=0x5015
+
+leonardo.menu.usb_name.leonardo_1flight_6=Leonardo (Flight Pedals)
+leonardo.menu.usb_name.leonardo_1flight_6.build.usb_product="Leonardo (Flight Pedals)"
+leonardo.menu.usb_name.leonardo_1flight_6.build.vid=0x1209
+leonardo.menu.usb_name.leonardo_1flight_6.build.pid=0x5016
+
+leonardo.menu.usb_name.leonardo_1flight_7=Leonardo (Throttle Quadrant)
+leonardo.menu.usb_name.leonardo_1flight_7.build.usb_product="Leonardo (Throttle Quadrant)"
+leonardo.menu.usb_name.leonardo_1flight_7.build.vid=0x1209
+leonardo.menu.usb_name.leonardo_1flight_7.build.pid=0x5017
+
+leonardo.menu.usb_name.leonardo_1flight_8=Leonardo (Trim Box)
+leonardo.menu.usb_name.leonardo_1flight_8.build.usb_product="Leonardo (Trim Box)"
+leonardo.menu.usb_name.leonardo_1flight_8.build.vid=0x1209
+leonardo.menu.usb_name.leonardo_1flight_8.build.pid=0x5018
+
+# race wheels etc
+leonardo.menu.usb_name.leonardo_2driving_0= - Driving Controls
+
+leonardo.menu.usb_name.leonardo_2driving_1=Leonardo (Racing Wheel)
+leonardo.menu.usb_name.leonardo_2driving_1.build.usb_product="Leonardo (Racing Wheel)"
+leonardo.menu.usb_name.leonardo_2driving_1.build.vid=0x1209
+leonardo.menu.usb_name.leonardo_2driving_1.build.pid=0x5021
+
+leonardo.menu.usb_name.leonardo_2driving_2=Leonardo (Racing Pedals)
+leonardo.menu.usb_name.leonardo_2driving_2.build.usb_product="Leonardo (Racing Pedals)"
+leonardo.menu.usb_name.leonardo_2driving_2.build.vid=0x1209
+leonardo.menu.usb_name.leonardo_2driving_2.build.pid=0x5022
+
+leonardo.menu.usb_name.leonardo_2driving_3=Leonardo (Racing Shifter)
+leonardo.menu.usb_name.leonardo_2driving_3.build.usb_product="Leonardo (Racing Shifter)"
+leonardo.menu.usb_name.leonardo_2driving_3.build.vid=0x1209
+leonardo.menu.usb_name.leonardo_2driving_3.build.pid=0x5023
+
+
+
+# button boxes
+leonardo.menu.usb_name.leonardo_3boxes_0= - Button Boxes
+
+leonardo.menu.usb_name.leonardo_3boxes_1=Leonardo (Button Box)
+leonardo.menu.usb_name.leonardo_3boxes_1.build.usb_product="Leonardo (Button Box)"
+leonardo.menu.usb_name.leonardo_3boxes_1.build.vid=0x1209
+leonardo.menu.usb_name.leonardo_3boxes_1.build.pid=0x5031
+
+leonardo.menu.usb_name.leonardo_3boxes_2=Leonardo (Button Box Left)
+leonardo.menu.usb_name.leonardo_3boxes_2.build.usb_product="Leonardo (Button Box Left)"
+leonardo.menu.usb_name.leonardo_3boxes_2.build.vid=0x1209
+leonardo.menu.usb_name.leonardo_3boxes_2.build.pid=0x5032
+
+leonardo.menu.usb_name.leonardo_3boxes_3=Leonardo (Button Box Center)
+leonardo.menu.usb_name.leonardo_3boxes_3.build.usb_product="Leonardo (Button Box Center)"
+leonardo.menu.usb_name.leonardo_3boxes_3.build.vid=0x1209
+leonardo.menu.usb_name.leonardo_3boxes_3.build.pid=0x5033
+
+leonardo.menu.usb_name.leonardo_3boxes_4=Leonardo (Button Box Right)
+leonardo.menu.usb_name.leonardo_3boxes_4.build.usb_product="Leonardo (Button Box Right)"
+leonardo.menu.usb_name.leonardo_3boxes_4.build.vid=0x1209
+leonardo.menu.usb_name.leonardo_3boxes_4.build.pid=0x5034
+
+leonardo.menu.usb_name.leonardo_3boxes_5=Leonardo (Button Box Radio)
+leonardo.menu.usb_name.leonardo_3boxes_5.build.usb_product="Leonardo (Button Box Radio)"
+leonardo.menu.usb_name.leonardo_3boxes_5.build.vid=0x1209
+leonardo.menu.usb_name.leonardo_3boxes_5.build.pid=0x5035
+
+leonardo.menu.usb_name.leonardo_3boxes_6=Leonardo (Button Box Overhead)
+leonardo.menu.usb_name.leonardo_3boxes_6.build.usb_product="Leonardo (Button Box Overhead)"
+leonardo.menu.usb_name.leonardo_3boxes_6.build.vid=0x1209
+leonardo.menu.usb_name.leonardo_3boxes_6.build.pid=0x5036
+
+# other sticks
+leonardo.menu.usb_name.leonardo_4other_0= - Other Joysticks
+
+leonardo.menu.usb_name.leonardo_4other_1=Leonardo (Joystick)
+leonardo.menu.usb_name.leonardo_4other_1.build.usb_product="Leonardo (Joystick)"
+leonardo.menu.usb_name.leonardo_4other_1.build.vid=0x1209
+leonardo.menu.usb_name.leonardo_4other_1.build.pid=0x5041
+
+leonardo.menu.usb_name.leonardo_4other_2=Leonardo (3D Joystick)
+leonardo.menu.usb_name.leonardo_4other_2.build.usb_product="Leonardo (3D Joystick)"
+leonardo.menu.usb_name.leonardo_4other_2.build.vid=0x1209
+leonardo.menu.usb_name.leonardo_4other_2.build.pid=0x5042
+
+leonardo.menu.usb_name.leonardo_4other_3=Leonardo (Twin Joystick)
+leonardo.menu.usb_name.leonardo_4other_3.build.usb_product="Leonardo (Twin Joystick)"
+leonardo.menu.usb_name.leonardo_4other_3.build.vid=0x1209
+leonardo.menu.usb_name.leonardo_4other_3.build.pid=0x5043
+
+leonardo.menu.usb_name.leonardo_4other_4=Leonardo (3D Twin Joystick)
+leonardo.menu.usb_name.leonardo_4other_4.build.usb_product="Leonardo (3D Twin Joystick)"
+leonardo.menu.usb_name.leonardo_4other_4.build.vid=0x1209
+leonardo.menu.usb_name.leonardo_4other_4.build.pid=0x5044
+
+leonardo.menu.usb_name.leonardo_4other_5=Leonardo (Spaceship Deck)
+leonardo.menu.usb_name.leonardo_4other_5.build.usb_product="Leonardo (Spaceship Deck)"
+leonardo.menu.usb_name.leonardo_4other_5.build.vid=0x1209
+leonardo.menu.usb_name.leonardo_4other_5.build.pid=0x5045
+
+leonardo.menu.usb_name.leonardo_4other_6=Leonardo (Mech Deck)
+leonardo.menu.usb_name.leonardo_4other_6.build.usb_product="Leonardo (Mech Deck)"
+leonardo.menu.usb_name.leonardo_4other_6.build.vid=0x1209
+leonardo.menu.usb_name.leonardo_4other_6.build.pid=0x5046
+
+leonardo.menu.usb_name.leonardo_4other_7=Leonardo (Fighting Stick)
+leonardo.menu.usb_name.leonardo_4other_7.build.usb_product="Leonardo (Fighting Stick)"
+leonardo.menu.usb_name.leonardo_4other_7.build.vid=0x1209
+leonardo.menu.usb_name.leonardo_4other_7.build.pid=0x5047
+
+leonardo.menu.usb_name.leonardo_4other_8=Leonardo (Gauge Cluster)
+leonardo.menu.usb_name.leonardo_4other_8.build.usb_product="Leonardo (Gauge Cluster)"
+leonardo.menu.usb_name.leonardo_4other_8.build.vid=0x1209
+leonardo.menu.usb_name.leonardo_4other_8.build.pid=0x5048
+
