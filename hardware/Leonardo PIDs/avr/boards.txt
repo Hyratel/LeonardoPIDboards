@@ -20,8 +20,8 @@ leonardo.upload_port.3.vid=0x2A03
 leonardo.upload_port.3.pid=0x8036
 leonardo.upload_port.4.board=leonardo
 
-leonardo.upload.tool=avrdude
-leonardo.upload.tool.default=avrdude
+leonardo.upload.tool=arduino:avrdude
+leonardo.upload.tool.default=arduino:avrdude
 leonardo.upload.tool.network=arduino_ota
 leonardo.upload.protocol=avr109
 leonardo.upload.maximum_size=28672
@@ -31,8 +31,8 @@ leonardo.upload.disable_flushing=true
 leonardo.upload.use_1200bps_touch=true
 leonardo.upload.wait_for_upload_port=true
 
-leonardo.bootloader.tool=avrdude
-leonardo.bootloader.tool.default=avrdude
+leonardo.bootloader.tool=arduino:avrdude
+leonardo.bootloader.tool.default=arduino:avrdude
 leonardo.bootloader.low_fuses=0xff
 leonardo.bootloader.high_fuses=0xd8
 leonardo.bootloader.extended_fuses=0xcb
@@ -46,8 +46,8 @@ leonardo.build.vid=0x2341
 leonardo.build.pid=0x8036
 leonardo.build.usb_product="Arduino Leonardo"
 leonardo.build.board=AVR_LEONARDO
-leonardo.build.core=arduino
-leonardo.build.variant=leonardo
+leonardo.build.core=arduino:arduino
+leonardo.build.variant=arduino:leonardo
 leonardo.build.extra_flags={build.usb_flags}
 
 ##############################################################
